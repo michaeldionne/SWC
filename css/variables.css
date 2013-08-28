@@ -13,11 +13,6 @@ p, div {
     line-height: 30px;
 }
 
-input#mc-embedded-subscribe.button {
-	float: right;
-	margin-right: 25px;
-}
-
 .row {
   color: #353129; 
 }
@@ -26,8 +21,6 @@ footer div {
   color: #353129;
 }
 
-#signup {
-}
 
 body {
   background-image: url("../img/old_wall.png");
@@ -37,9 +30,29 @@ body {
 
 hr {
   border-top-color: #353129;
+  margin: auto;
 }
 
-#logo {
+#logo, #payoption_member {
 	margin-bottom: 50px;
 	margin-top: 50px;
 }
+
+#payoption {
+  text-align: center;
+}
+
+#payoption_member {
+  text-align: center;
+}
+
+#payoptionrow {
+  background-color: #eee;
+  margin: 2.5px;
+  border-radius: 6px;
+}
+
+#paybutton {
+  margin-left: 10px;
+}
+
